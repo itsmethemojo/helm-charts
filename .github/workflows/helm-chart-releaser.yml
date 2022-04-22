@@ -1,2 +1,13 @@
-- name: Helm Chart Releaser
-  uses: helm/chart-releaser-action@v1.4.0
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  helm-chart-release:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Helm Chart Releaser
+      uses: helm/chart-releaser-action@v1.4.0
