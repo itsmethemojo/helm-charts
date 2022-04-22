@@ -1,0 +1,3 @@
+[submodule "charts/hetzner-dyndns"]
+	path = charts/hetzner-dyndns
+	url = https://github.com/itsmethemojo/helm-hetzner-dyndns
