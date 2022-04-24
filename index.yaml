@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  hetzner-dyndns:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-04-24T06:39:41.370086832Z"
+    description: A helm chart to regulary update dynamic dns entries on hetzner dns
+    digest: 4a83cd5756dee1551a1b7cd0d3b343218cacf0bd8c5a6404ca16e2928b447044
+    name: hetzner-dyndns
+    type: application
+    urls:
+    - https://github.com/itsmethemojo/helm-charts/releases/download/hetzner-dyndns-0.1.1/hetzner-dyndns-0.1.1.tgz
+    version: 0.1.1
+generated: "2022-04-24T06:39:41.370111032Z"
