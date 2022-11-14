@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   hetzner-dyndns:
   - apiVersion: v2
+    created: "2022-11-14T23:50:07.731675627Z"
+    description: A helm chart to regulary update dynamic dns entries on hetzner dns.
+      This gets handy when managing multiple subdomains with an ingress controller.
+    digest: cc5d911c46a88705d7ebbc3dffa626bf1f2dd80b6012e7f2b350622d0607683c
+    icon: https://itsmethemojo.github.io/helm-charts/icon.png
+    name: hetzner-dyndns
+    type: application
+    urls:
+    - https://github.com/itsmethemojo/helm-charts/releases/download/hetzner-dyndns-0.2.1/hetzner-dyndns-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
     created: "2022-11-14T23:01:33.369123487Z"
     description: A helm chart to regulary update dynamic dns entries on hetzner dns.
       This gets handy when managing multiple subdomains with an ingress controller.
@@ -21,4 +32,4 @@ entries:
     urls:
     - https://github.com/itsmethemojo/helm-charts/releases/download/hetzner-dyndns-0.1.1/hetzner-dyndns-0.1.1.tgz
     version: 0.1.1
-generated: "2022-11-14T23:01:33.369137888Z"
+generated: "2022-11-14T23:50:07.731691927Z"
