@@ -2,3 +2,6 @@
 	path = charts/hetzner-dyndns
 	url = https://github.com/itsmethemojo/helm-hetzner-dyndns
 	branch = main
+[submodule "charts/basic-web-app"]
+	path = charts/basic-web-app
+	url = https://github.com/itsmethemojo/helm-basic-web-app.git
