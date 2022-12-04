@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   basic-web-app:
   - apiVersion: v2
+    created: "2022-12-04T23:14:51.069456613Z"
+    description: a generic helm chart to run basic web applications in kubernertes
+    digest: e8aebfe25ddffdd31b4fddb8e60e017be4eb72eb910c50b27c45329585da4a91
+    icon: https://itsmethemojo.github.io/helm-charts/icon.png
+    name: basic-web-app
+    type: application
+    urls:
+    - https://github.com/itsmethemojo/helm-charts/releases/download/basic-web-app-1.0.1/basic-web-app-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     created: "2022-12-04T23:08:52.293691523Z"
     description: a generic helm chart to run basic web applications in kubernertes
     digest: bcb58ab2e273ec853c60242ba433be279f447ff039b55ee9620fae86b3f88c3e
@@ -42,4 +52,4 @@ entries:
     urls:
     - https://github.com/itsmethemojo/helm-charts/releases/download/hetzner-dyndns-0.1.1/hetzner-dyndns-0.1.1.tgz
     version: 0.1.1
-generated: "2022-12-04T23:08:52.293707623Z"
+generated: "2022-12-04T23:14:51.069470914Z"
