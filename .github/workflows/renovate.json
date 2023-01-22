@@ -1,0 +1,6 @@
+{
+    "enabledManagers": ["git-submodules"],
+    "platformAutomerge": true,
+    "automergeStrategy": "fast-forward",
+    "automerge": true
+}
