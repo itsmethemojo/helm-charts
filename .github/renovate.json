@@ -4,6 +4,7 @@
     "packageRules": [
     {
       "matchManagers": ["git-submodules"],
+      "commitMessagePrefix": "",
       "automergeType": "branch",
       "automergeStrategy": "fast-forward",
       "ignoreTests": true,
