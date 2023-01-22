@@ -4,7 +4,7 @@
     "packageRules": [
     {
       "matchManagers": ["git-submodules"],
-      "automergeType: "branch",
+      "automergeType": "branch",
       "automergeStrategy": "fast-forward",
       "automerge": true
     }
