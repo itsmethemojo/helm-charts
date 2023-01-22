@@ -1,6 +1,12 @@
 {
     "enabledManagers": ["git-submodules"],
     "platformAutomerge": true,
-    "automergeStrategy": "fast-forward",
-    "automerge": true
+    "packageRules": [
+    {
+      "matchManagers": ["git-submodules"],
+      automergeType: "branch",
+      "automergeStrategy": "fast-forward",
+      "automerge": true
+    }
+  ]
 }
