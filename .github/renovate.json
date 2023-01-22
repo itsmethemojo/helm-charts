@@ -6,6 +6,7 @@
       "matchManagers": ["git-submodules"],
       "automergeType": "branch",
       "automergeStrategy": "fast-forward",
+      "ignoreTests": true,
       "automerge": true
     }
   ]
