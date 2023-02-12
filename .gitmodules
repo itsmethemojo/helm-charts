@@ -1,6 +1,6 @@
 [submodule "charts/hetzner-dyndns"]
 	path = charts/hetzner-dyndns
-	url = https://github.com/itsmethemojo/helm-hetzner-dyndns
+	url = https://github.com/itsmethemojo/helm-hetzner-dyndns.git
 	branch = main
 [submodule "charts/basic-web-app"]
 	path = charts/basic-web-app
@@ -9,3 +9,4 @@
 [submodule "charts/oauth2-proxy-ingress"]
 	path = charts/oauth2-proxy-ingress
 	url = https://github.com/itsmethemojo/helm-oauth2-proxy-ingress.git
+        branch = main

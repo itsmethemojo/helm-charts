@@ -1,5 +1,6 @@
 # helm-charts
 
 ```
+git submodule update --init
 git submodule update --remote --merge
 ```
