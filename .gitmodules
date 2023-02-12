@@ -6,3 +6,6 @@
 	path = charts/basic-web-app
 	url = https://github.com/itsmethemojo/helm-basic-web-app.git
         branch = main
+[submodule "charts/oauth2-proxy-ingress"]
+	path = charts/oauth2-proxy-ingress
+	url = https://github.com/itsmethemojo/helm-oauth2-proxy-ingress.git
