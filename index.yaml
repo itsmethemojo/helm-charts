@@ -75,4 +75,13 @@ entries:
     urls:
     - https://github.com/itsmethemojo/helm-charts/releases/download/hetzner-dyndns-0.1.1/hetzner-dyndns-0.1.1.tgz
     version: 0.1.1
-generated: "2023-01-22T02:46:38.55578428Z"
+  oauth2-proxy-ingress:
+  - apiVersion: v2
+    created: "2023-02-12T16:20:25.28371266Z"
+    description: helm chart to create multiple ingresses to use with a single oauth2-proxy
+    digest: 65c4767943c26a6fe8a994ac03397ce3d256ad167fda074e9fd24db8193d7d6c
+    name: oauth2-proxy-ingress
+    urls:
+    - https://github.com/itsmethemojo/helm-charts/releases/download/oauth2-proxy-ingress-1.0.0/oauth2-proxy-ingress-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-02-12T16:20:25.28400536Z"
