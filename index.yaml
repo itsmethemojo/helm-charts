@@ -34,6 +34,19 @@ entries:
     version: 1.0.0
   hetzner-dyndns:
   - apiVersion: v2
+    created: "2023-02-12T21:27:09.987717806Z"
+    description: A helm chart to regulary update dynamic dns entries on hetzner dns.
+      This gets handy when managing multiple subdomains with an ingress controller.
+    digest: e8490a2b3d3dafe7808ebefa16771433d510c6bc5cb6887ac59c2cdf50acc2cc
+    icon: https://itsmethemojo.github.io/helm-charts/icon.png
+    name: hetzner-dyndns
+    sources:
+    - https://github.com/itsmethemojo/helm-hetzner-dyndns
+    type: application
+    urls:
+    - https://github.com/itsmethemojo/helm-charts/releases/download/hetzner-dyndns-0.2.3/hetzner-dyndns-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
     created: "2023-01-22T02:46:38.55576548Z"
     description: A helm chart to regulary update dynamic dns entries on hetzner dns.
       This gets handy when managing multiple subdomains with an ingress controller.
@@ -77,6 +90,17 @@ entries:
     version: 0.1.1
   oauth2-proxy-ingress:
   - apiVersion: v2
+    created: "2023-02-12T21:27:10.100152227Z"
+    description: helm chart to create multiple ingresses to use with a single oauth2-proxy
+    digest: 46ed053325d3ce52e8cbc7c243d3b59b55ecfe7a7701794784cfc731f3a9bf40
+    icon: https://itsmethemojo.github.io/helm-charts/icon.png
+    name: oauth2-proxy-ingress
+    sources:
+    - https://github.com/itsmethemojo/helm-oauth2-proxy-ingress
+    urls:
+    - https://github.com/itsmethemojo/helm-charts/releases/download/oauth2-proxy-ingress-1.0.1/oauth2-proxy-ingress-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     created: "2023-02-12T16:20:25.28371266Z"
     description: helm chart to create multiple ingresses to use with a single oauth2-proxy
     digest: 65c4767943c26a6fe8a994ac03397ce3d256ad167fda074e9fd24db8193d7d6c
@@ -84,4 +108,4 @@ entries:
     urls:
     - https://github.com/itsmethemojo/helm-charts/releases/download/oauth2-proxy-ingress-1.0.0/oauth2-proxy-ingress-1.0.0.tgz
     version: 1.0.0
-generated: "2023-02-12T16:20:25.28400536Z"
+generated: "2023-02-12T21:27:10.100192613Z"
