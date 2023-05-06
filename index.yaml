@@ -122,6 +122,17 @@ entries:
     version: 0.1.1
   oauth2-proxy-ingress:
   - apiVersion: v2
+    created: "2023-05-06T23:02:57.816252516Z"
+    description: helm chart to create multiple ingresses to use with a single oauth2-proxy
+    digest: 09a6078afe6c03d86b83f765e27c4a9e5688c358a3188654edbbe82bbacb37fd
+    icon: https://itsmethemojo.github.io/helm-charts/icon.png
+    name: oauth2-proxy-ingress
+    sources:
+    - https://github.com/itsmethemojo/helm-oauth2-proxy-ingress
+    urls:
+    - https://github.com/itsmethemojo/helm-charts/releases/download/oauth2-proxy-ingress-1.1.0/oauth2-proxy-ingress-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
     created: "2023-02-12T21:27:10.100152227Z"
     description: helm chart to create multiple ingresses to use with a single oauth2-proxy
     digest: 46ed053325d3ce52e8cbc7c243d3b59b55ecfe7a7701794784cfc731f3a9bf40
@@ -140,4 +151,4 @@ entries:
     urls:
     - https://github.com/itsmethemojo/helm-charts/releases/download/oauth2-proxy-ingress-1.0.0/oauth2-proxy-ingress-1.0.0.tgz
     version: 1.0.0
-generated: "2023-05-06T22:49:20.465423814Z"
+generated: "2023-05-06T23:02:57.816373917Z"
