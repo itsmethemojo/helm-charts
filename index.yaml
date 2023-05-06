@@ -34,6 +34,22 @@ entries:
     version: 1.0.0
   hetzner-dyndns:
   - apiVersion: v2
+    created: "2023-05-06T19:39:52.957111076Z"
+    description: 'A lightweight external-dns operator for hetzner dns.  Similar to
+      kubernetes-sigs/external-dns it creates dns entries for ingresses with the external-dns.alpha.kubernetes.io/hostname
+      annotation. It will update your dns entries in a specified interval.   To keep
+      it as less code as possible the kubernetes access and the hetzner dns access
+      is all managed via terraform providers. '
+    digest: a182f9f1167d907f29d002fc3f43665345d6c20624eb6b5868838f4f3108dc2b
+    icon: https://itsmethemojo.github.io/helm-charts/icon.png
+    name: hetzner-dyndns
+    sources:
+    - https://github.com/itsmethemojo/helm-hetzner-dyndns
+    type: application
+    urls:
+    - https://github.com/itsmethemojo/helm-charts/releases/download/hetzner-dyndns-1.0.0/hetzner-dyndns-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     created: "2023-02-12T21:27:09.987717806Z"
     description: A helm chart to regulary update dynamic dns entries on hetzner dns.
       This gets handy when managing multiple subdomains with an ingress controller.
@@ -108,4 +124,4 @@ entries:
     urls:
     - https://github.com/itsmethemojo/helm-charts/releases/download/oauth2-proxy-ingress-1.0.0/oauth2-proxy-ingress-1.0.0.tgz
     version: 1.0.0
-generated: "2023-02-12T21:27:10.100192613Z"
+generated: "2023-05-06T19:39:52.957136176Z"
