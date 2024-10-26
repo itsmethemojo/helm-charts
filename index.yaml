@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   basic-web-app:
   - apiVersion: v2
+    created: "2024-10-26T22:16:42.922454052Z"
+    description: a generic helm chart to run basic web applications in kubernertes
+    digest: cd78564a9e697454aeed30dbd9129282efc3ba6139b65e64d4bc6ff16af01070
+    icon: https://itsmethemojo.github.io/helm-charts/icon.png
+    name: basic-web-app
+    sources:
+    - https://github.com/itsmethemojo/helm-basic-web-app
+    type: application
+    urls:
+    - https://github.com/itsmethemojo/helm-charts/releases/download/basic-web-app-1.2.1/basic-web-app-1.2.1.tgz
+    version: 1.2.1
+  - apiVersion: v2
     created: "2024-10-26T20:13:38.424005411Z"
     description: a generic helm chart to run basic web applications in kubernertes
     digest: c76f3094d888334d8ab806befc292b6c2b0b48570866044fc303a92b18c46da8
@@ -223,4 +235,4 @@ entries:
     urls:
     - https://github.com/itsmethemojo/helm-charts/releases/download/oauth2-proxy-ingress-1.0.0/oauth2-proxy-ingress-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-26T20:13:38.424055525Z"
+generated: "2024-10-26T22:16:42.922506049Z"
