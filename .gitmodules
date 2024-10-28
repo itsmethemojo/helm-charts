@@ -10,3 +10,6 @@
 	path = charts/oauth2-proxy-ingress
 	url = https://github.com/itsmethemojo/helm-oauth2-proxy-ingress.git
         branch = main
+[submodule "charts/tekton-git-listener"]
+	path = charts/tekton-git-listener
+	url = https://github.com/itsmethemojo/tekton-git-listener.git
