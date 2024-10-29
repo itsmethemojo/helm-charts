@@ -237,6 +237,24 @@ entries:
     version: 1.0.0
   tekton-git-listener:
   - apiVersion: v2
+    created: "2024-10-29T00:18:32.325370268Z"
+    dependencies:
+    - alias: app
+      name: basic-web-app
+      repository: https://itsmethemojo.github.io/helm-charts/
+      version: 1.2.1
+    description: generic git repository listener to run tekton pipelines on new commits
+      and/or tags
+    digest: 15513e8c4ccb88afb0c2f455abe7699fc6704396a07cb6faf46d7a2e3705c2cf
+    icon: https://itsmethemojo.github.io/helm-charts/icon.png
+    name: tekton-git-listener
+    sources:
+    - https://github.com/itsmethemojo/tekton-git-listener
+    type: application
+    urls:
+    - https://github.com/itsmethemojo/helm-charts/releases/download/tekton-git-listener-0.1.1/tekton-git-listener-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     created: "2024-10-29T00:13:01.44510238Z"
     dependencies:
     - alias: app
@@ -253,4 +271,4 @@ entries:
     urls:
     - https://github.com/itsmethemojo/helm-charts/releases/download/tekton-git-listener-0.1.0/tekton-git-listener-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-29T00:13:01.445143256Z"
+generated: "2024-10-29T00:18:32.32541955Z"
