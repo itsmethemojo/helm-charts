@@ -13,3 +13,4 @@
 [submodule "charts/tekton-git-listener"]
 	path = charts/tekton-git-listener
 	url = https://github.com/itsmethemojo/tekton-git-listener.git
+	branch = main
