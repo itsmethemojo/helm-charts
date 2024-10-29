@@ -235,4 +235,22 @@ entries:
     urls:
     - https://github.com/itsmethemojo/helm-charts/releases/download/oauth2-proxy-ingress-1.0.0/oauth2-proxy-ingress-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-26T22:16:42.922506049Z"
+  tekton-git-listener:
+  - apiVersion: v2
+    created: "2024-10-29T00:13:01.44510238Z"
+    dependencies:
+    - alias: app
+      name: basic-web-app
+      repository: https://itsmethemojo.github.io/helm-charts/
+      version: 1.2.1
+    description: generic git repository listener to run tekton pipelines on new commits
+      and/or tags
+    digest: 148a93af92f416a4915bbbb76387eac446ea57036abad6312716d9b9f4cbf9a2
+    name: tekton-git-listener
+    sources:
+    - https://github.com/itsmethemojo/tekton-git-listener
+    type: application
+    urls:
+    - https://github.com/itsmethemojo/helm-charts/releases/download/tekton-git-listener-0.1.0/tekton-git-listener-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-10-29T00:13:01.445143256Z"
