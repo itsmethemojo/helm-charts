@@ -14,3 +14,6 @@
 	path = charts/tekton-git-listener
 	url = https://github.com/itsmethemojo/tekton-git-listener.git
 	branch = main
+[submodule "charts/dynamic-ip-loadbalancer-controller"]
+	path = charts/dynamic-ip-loadbalancer-controller
+	url = git@github.com:itsmethemojo/dynamic-ip-loadbalancer-controller.git
