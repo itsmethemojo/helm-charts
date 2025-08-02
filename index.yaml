@@ -68,6 +68,26 @@ entries:
     urls:
     - https://github.com/itsmethemojo/helm-charts/releases/download/basic-web-app-1.0.0/basic-web-app-1.0.0.tgz
     version: 1.0.0
+  dynamic-ip-loadbalancer-controller:
+  - apiVersion: v2
+    created: "2025-08-02T21:51:34.913584509Z"
+    dependencies:
+    - alias: app
+      name: basic-web-app
+      repository: https://itsmethemojo.github.io/helm-charts/
+      version: 1.2.1
+    description: a lightweigt kubernetes component for keeping the external-ip of
+      your loadbalancer services up-to-date when running a kubernetes cluster at home
+      behind a router with a dynamic ip
+    digest: 55c74f43ead649ece6fb83ff74f05b28aced88c0ab26d92b8838a3a2c4d3915a
+    icon: https://itsmethemojo.github.io/helm-charts/icon.png
+    name: dynamic-ip-loadbalancer-controller
+    sources:
+    - https://github.com/itsmethemojo/dynamic-ip-loadbalancer-controller
+    type: application
+    urls:
+    - https://github.com/itsmethemojo/helm-charts/releases/download/dynamic-ip-loadbalancer-controller-0.1.0/dynamic-ip-loadbalancer-controller-0.1.0.tgz
+    version: 0.1.0
   hetzner-dyndns:
   - apiVersion: v2
     created: "2024-10-11T22:42:10.043950886Z"
@@ -271,4 +291,4 @@ entries:
     urls:
     - https://github.com/itsmethemojo/helm-charts/releases/download/tekton-git-listener-0.1.0/tekton-git-listener-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-29T00:18:32.32541955Z"
+generated: "2025-08-02T21:51:34.91363864Z"
